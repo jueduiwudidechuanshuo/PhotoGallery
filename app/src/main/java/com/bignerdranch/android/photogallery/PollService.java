@@ -24,7 +24,7 @@ import java.util.concurrent.TimeUnit;
 public class PollService extends IntentService {
     private static final String TAG = "PollService";
 
-    private static final long POLL_INTERVAL_MS = TimeUnit.MINUTES.toMillis(15);
+    private static final long POLL_INTERVAL_MS = TimeUnit.MINUTES.toMillis(1);
 
     public static final String ACTION_SHOW_NOTIFICATION = "com.bignerdranch.android.photogallery.SHOW_NOTIFICATION";
     public static final String PERM_PRIVATE = "com.bignerdranch.android.photogallery.PRIVATE";
